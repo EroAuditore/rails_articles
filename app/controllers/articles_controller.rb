@@ -34,4 +34,10 @@ class ArticlesController < ApplicationController
         #@article.title = params[:title]
         #@article.description = params[:description]
     end
+
+    def destroy
+        @article = Article.find(params[:id])
+        @article.destroy
+        redirect_to articles_path
+    end
 end
