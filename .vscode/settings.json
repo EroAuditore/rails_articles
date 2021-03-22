@@ -1,0 +1,38 @@
+{
+    "workbench.iconTheme": "simple-icons",
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.ignoreWindowsGit27Warning": true,
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "debug.allowBreakpointsEverywhere": true,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "explorer.confirmDelete": false,
+   
+
+    "emmet.showSuggestionsAsSnippets": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.productIconTheme": "icons-carbon",
+    "emmet.syntaxProfiles": {
+    
+    },
+    "emmet.extensionsPath": "",
+    "emmet.includeLanguages": {
+        "erb": "html",
+        "ruby": "html"
+    },
+    "emmet.triggerExpansionOnTab": true
+    
+    
+    
+}
